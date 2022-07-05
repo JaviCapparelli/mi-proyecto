@@ -1,0 +1,218 @@
+.titulo{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fondo-menu{
+    background-color:orange;
+    margin: 0;
+    padding: 0;
+
+}
+#menu{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    background-color: black;
+    margin: 0;
+    padding: 25;
+}
+.color-pizzas{
+    color: red;
+}
+.color-empanadas{
+    color: red;
+}
+.color-hamburguesas{
+    color: red;
+}
+h1{
+    margin: 0%;
+    padding: 50px;
+    color: black;
+    background-color: orange;
+}
+h2 {
+    color: black;
+    background-color: orange;
+    font-size: 30px;
+    padding: 50px;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+}
+
+h4 {
+    color: orange;
+    font-size: 35px;
+}
+h5 {
+    color: black;
+}
+
+ul {
+    color: orange;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+}
+
+.white{ color: white;
+font-size: 25px;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Great Vibes', cursive;
+}
+.inicia-ingrese{
+    justify-content: center;
+}
+#inicia-sesion{
+    color:black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+label{
+    color: orange;
+}
+legend{
+    color: orange;
+    font-size: 30px;
+}
+#registrate{
+    color: orange;
+    font-size: 40px;
+}
+.registrar{
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.body{
+    background-color: black;
+    font-size: 60px;
+
+}
+
+#sobre-nosotros{
+    color: orange;
+    font-size: 25px;
+}
+.sobre-nosotros{
+    color: beige;
+    text-align: center;
+    padding: 25;
+
+}
+.letra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fondo-nosotros{
+    background-color: beige;
+}
+.back-sobre-nosotros{
+    background-color: beige;
+}
+.fondo-contacto{
+    background-color: black;
+}
+.contacto-letra{
+    color: black;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+header{
+
+    background-color: orange;
+    justify-content: center;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+nav{
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: end;
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+#color-titulo{
+    color: white;
+    font-size: 25px;
+}
+.input{
+    justify-content: center;
+}
+#imagen-rata{
+    justify-content: baseline;}
+
+.grid-container{
+    display: grid;
+    background-color: orange;
+    height: 800px;
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+}
+.grid-container div{
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    
+}
+
+header{
+    grid-area: header;
+}
+footer{
+    grid-area: footer;
+}
+section{
+    grid-area: section;
+}
+nav{
+    grid-area: nav;
+}
+
+
+@media all and(max-widht:768px){
+    .grid-container{
+        grid-template-rows: repeat(6, 100px);
+    }
+}
+.item1{
+    grid-area: 1 ;
+}
+.item2{
+    grid-area: 2;
+}
+.item3{
+    grid-area: 3;
+}

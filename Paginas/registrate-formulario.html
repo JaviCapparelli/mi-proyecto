@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="/Users/Javi/Desktop/Idea+Capparelli Javier/mi proyecto/style.css">
+</head> 
+<body>
+    <section>
+        <form action="" method="GET" enctype="multipart/form-data">
+            <h2 class="registrar">Registrate</h2>
+            <fieldset>
+            <legend>Mi cuenta:</legend>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" placeholder="Nombre" name="nombre" id="Registrate">
+            <br>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" placeholder="Apellido" name="Apellido">
+            <br>
+            <label for="Dni">Dni:</label>
+            <input type="number" placeholder="Dni" name="Dni" required>
+            <br>
+            <label for="Direccion">Direccion:</label>
+            <input type="text" placeholder="Direccion" name="Direccion">
+            <br>
+            <label for="Telefono">Telefono</label>
+            <input type="number" placeholder="Telefono" name="Telefono"></h2>
+            <br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de envio:</legend>
+                <label for="Direccion">Direccion:</label>
+                <input type="text" name="Direccion" placeholder="Direccion">
+                <br>
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" id="" cols="30" rows="10" placeholder="Escriba algo aqui..."></textarea>
+                <br>
+                <label for="Fecha">Fecha dle pedido</label>
+                <input type="date" name="Fecha" id="">
+                <label for="Horario de entrega">Horario de entrega</label>
+                <select name="Horario de entrega" id="Horario de entrega">
+                <option value="20:00">20:00</option>
+                <option value="20:30">20:30</option>
+                <option value="21:00">21:00</option>
+                <option value="21:30">21:30</option>
+                <option value="22:00">22:00</option>
+                <option value="22:30">22:30</option>
+                <option value="23:00">23:00</option>
+                <option value="23:30">23:30</option>
+                <option value="00:00">00:00</option>   
+               
+                </select>  
+            </fieldset>
+                <fieldset>
+                    <legend>Informacion de Pago:</legend>
+                    <label for="NroTarjeta">Numero de Tarjeta</label>
+                    <input type="number" name="NroTarjeta" placeholder="Numero de Tarjeta">
+                    <br>
+                    <label for="Titular">Titular:</label>
+                    <input type="text" name="Titular" placeholder="Titular">
+                    <br>
+                    <label for="Vencimiento">Vencimiento:</label>
+                    <input type="month" name="Vencimiento" id="">
+                    <br>
+                    <label for="cvv">CVV</label>
+                    <input type="Password" name="cvv" id="" maxlength="3" pattern="[0-9]" title="solo se permiten 3 numeros">
+                    <input type="submit" value="Enviar">
+                    <input type="reset"  value="Vaciar">
+                    <input type="button" value="Otro Boton">
+                </fieldset>
+</body>
+</html>
