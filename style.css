@@ -202,7 +202,7 @@ nav{
 }
 
 
-@media all and(max-widht:768px){
+@media all and(max-widht:600px){
     .grid-container{
         grid-template-rows: repeat(6, 100px);
     }
