@@ -1,141 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="head">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Chefsito</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="main">
-    <header>
-        <nav>
-        <a href="./Paginas/Home.html">Home</a>
-        <a href="./Paginas/menu.html">Menu</a>
-        <a href="./Paginas/sobre-nosotros.html">Sobre Nosotros</a>
-        <a href="Paginas/contacto.html">Contacto</a>
-        </nav>
-        <div class="row">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">El Chefsito</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagenes/scale.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/81517e04133ca3a107d4f81f658f9652.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/portada-web22-1.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
     
         </div>
-  <h1 class="titulo">El Chefsito</h1>
-    <h2>No te hagas la rata y hace tu pedido!</h2>
-    <img id="imagen-rata" src="./imagenes/ratatoille-5-862x1024.png" alt="imagen-ratatoille" width="600" height="400">
 
-    <h3 id="inicia-sesion">Inicia Sesion</h3>
-    <input type="text" placeholder="Ingrese Direccion " name="Ingrese Direccion">
-    <a href="#Ingresa"> <input type="submit" value="Ingresa"></a>
-    <a href="#Registrate"> <input type="submit" value="Registrate"></a>
-    </header>
-
-
-    <form action="" method="GET" enctype="multipart/form-data">
-        <h4>Registrate</h4>
-        <legend>Mi cuenta:</legend>
-        <label for="Nombre">Nombre:</label>
-        <input type="text" placeholder="Nombre" name="nombre" id="Registrate">
-        <br>
-        <label for="Apellido">Apellido:</label>
-        <input type="text" placeholder="Apellido" name="Apellido">
-        <br>
-        <label for="Dni">Dni:</label>
-        <input type="number" placeholder="Dni" name="Dni" required>
-        <br>
-        <label for="Direccion">Direccion:</label>
-        <input type="text" placeholder="Direccion" name="Direccion">
-        <br>
-        <label for="Telefono">Telefono</label>
-        <input type="number" placeholder="Telefono" name="Telefono"></h2>
-        <br>
-        <br>
-
-            <legend>Datos de envio:</legend>
-            <label for="Direccion">Direccion:</label>
-            <input type="text" name="Direccion" placeholder="Direccion">
-            <br>
-            <label for="comentario">Comentario:</label>
-            <textarea name="comentario" id="" cols="30" rows="10" placeholder="Escriba algo aqui..."></textarea>
-            <br>
-            <label for="Fecha">Fecha del pedido</label>
-            <input type="date" name="Fecha" id="">
-            <label for="Horario de entrega">Horario de entrega</label>
-            <select name="Horario de entrega" id="Horario de entrega">
-            <option value="20:00">20:00</option>
-            <option value="20:30">20:30</option>
-            <option value="21:00">21:00</option>
-            <option value="21:30">21:30</option>
-            <option value="22:00">22:00</option>
-            <option value="22:30">22:30</option>
-            <option value="23:00">23:00</option>
-            <option value="23:30">23:30</option>
-            <option value="00:00">00:00</option>   
-           
-            </select>  
-           
-                <legend>Informacion de Pago:</legend>
-                <label for="NroTarjeta">Numero de Tarjeta</label>
-                <input type="number" name="NroTarjeta" placeholder="Numero de Tarjeta">
-                <br>
-                <label for="Titular">Titular:</label>
-                <input type="text" name="Titular" placeholder="Titular">
-                <br>
-                <label for="Vencimiento">Vencimiento:</label>
-                <input type="month" name="Vencimiento" id="">
-                <br>
-                <label for="cvv">CVV</label>
-                <input type="Password" name="cvv" id="" maxlength="3" pattern="[0-9]" title="solo se permiten 3 numeros">
-                <input type="submit" value="Enviar">
-                <input type="reset"  value="Vaciar">
-                <input type="button" value="Otro Boton">
-                <section>
-
-            <h4 id="menu">Menu</h4>
-            <div class="grid-container">
-            <div class="item1" id="color-titulo">Pizzas</div>
-                    <div class="item1">Muzzarella</div>
-                    <div class="item1">Jamon y Morron</div>
-                    <div class="item1">Napolitana</div>
-                    <div class="item1">Calabresa</div>
-                    <div class="item1">Fugazza</div>
-
-                 <div class="item2" id="color-titulo">Empanadas</div>
-                        <div class="item2">Carne</div>
-                        <div class="item2">Pollo</div>
-                        <div class="item2">Jamon y Queso</div>
-                        <div class="item2">Humita</div>
-                        <div class="item2">Verdura</div>
-
-                    <div class="item3" id="color-titulo">Hamburguesas</div >
-                            <div class="item3">Simple Cheddar</div>
-                            <div class="item3">Doble Americana</div>
-                            <div class="item3">Triple Americana</div>
-                                <div class="item3">Clasica</div>
-                                <div class="item3">Completa</div>
-      
-    </section>
-  
-    <h5 id="sobre-nosotros">Sobre Nosotros</h5>
-    <p>Somos una pequeña empresa familiar que cocina para la familia 
-        y que cuenta con un servicio de delivery impecable te invitamos
-        a que puedas realizar tu pedido de la manera mas rapida. 
-        Queremos que nos cuentes tu experiencia:
-        
-    </p>
-    <label for="comentario">Comentario:</label>
-    <textarea name="comentario" id="" cols="30" rows="10" placeholder="Escriba algo aqui..."></textarea>
-    <input type="submit" value="Enviar">
-     </form>
+                <section></section>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
      </body>
-    <footer> <h5
-       id="Contacto">Contacto</h5>
-        <a href="https://www.facebook.com/home.php">Ir a facebook</a>
-        <a href="https://www.instagram.com/">Ir a instagram</a>
-
-</div>
-</footer>
+<footer></footer>
   
 </div>   
 </html>
