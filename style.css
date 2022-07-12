@@ -1,4 +1,50 @@
-img-fluid{
-    max-width: 100%;
-    height: auto;
+.bg-color{
+    width: 100%;
+    background-color: rgb(75, 61, 88);
+}
+
+body{
+    background-color: rgb(96, 137, 175);
+}
+footer{
+    width: 100%;
+    background-color: rgb(75, 61, 88);
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 30px;
+}
+.bi-facebook{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+.bi-facebook:hover{
+    color: rgb(113, 113, 233);
+}
+.bi-whatsapp{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+.bi-whatsapp:hover{
+    color: greenyellow;
+}
+.bi-instagram:hover{
+
+color: palevioletred;
+}
+.bi-instagram{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
 }

@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Chefsito</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-color">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">El Chefsito</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,35 +36,125 @@
     </div>
   </nav>
   <header>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./imagenes/scale.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img class="img-fluid" src="./imagenes/scale.jpg" width="1920" height="1080" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img class="img-fluid" src="./imagenes/81517e04133ca3a107d4f81f658f9652.jpeg" width="1920" height="1080"  class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/81517e04133ca3a107d4f81f658f9652.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./imagenes/portada-web22-1.png" class="d-block w-100" alt="...">
+          <img class="img-fluid" src="./imagenes/portada-web22-1.png" width="1920" height="1080"  class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   </header>
+  <section class="container-fluid" mb-5>
+    <h1 class="text-center mt-3 mb-4">Ofertas Destacadas</h1>
+    <div class="row justify-content-around">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/depositphotos_56423065-stock-photo-bacon-burger.jpg" width="600" height="400" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hamburguesa MaxBacon</h5>
+          <p class="card-text">Hamburguesa completa con pan artesano,lechuga, tomate, queso chedar y doble cantidad de bacon</p>
+          <a href="#" class="btn btn-primary">$850</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/ZKYXAVEDTFHJNJCLFALVFVYOY4.jpg" width="600" height="400"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza Muzzarella</h5>
+          <p class="card-text">Pizza grande de muzzarella viene con faina de regalo </p>
+          <a href="#" class="btn btn-primary">$1100</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/th5-640x640-11549.jpg" width="600" height="400"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Empanadas</h5>
+          <p class="card-text">Docena de empanadas a eleccion sabores/carne/pollo/jamonyqueso</p>
+          <a href="#" class="btn btn-primary">$1500</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="container-fluid">
+    <h2 class="text-center mt-3 mb-4">Contacto</h2>
+    <div class="row">
+    <article>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+</article>
+    </article>
+  </section>
     
         </div>
 
                 <section></section>
+
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
      </body>
-<footer></footer>
+     <footer>
+      <div class="footer">
+        <div class="redes">
+      <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+</div>
+</div>
+    </footer>
   
 </div>   
 </html>
