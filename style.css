@@ -48,3 +48,13 @@ color: palevioletred;
     margin-right: 5px;
     color: white;
 }
+p{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+
+
+}
+.textarea-centro{
+    align-items: center;
+}
