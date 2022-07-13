@@ -17,6 +17,17 @@ footer{
 .footer{
     margin-top: 30px;
 }
+.btn-primary{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    transition: all 0.2s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    transform: scale(0.8);
+
+}
 .bi-facebook{
     font-size: 30px;
     text-align: center;
