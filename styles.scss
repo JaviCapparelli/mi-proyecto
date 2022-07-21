@@ -65,9 +65,7 @@ color: palevioletred;
 }
 .row{
    background-color:$colorFondo;
-   .row div{
-    background-color: aqua;
-   }
+
    h5{
     color:$color-nav-footer;
    }
@@ -76,4 +74,7 @@ color: palevioletred;
    }
    
 
+}
+.navbar-toggler-icon{
+    background-color: antiquewhite;
 }

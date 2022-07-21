@@ -75,9 +75,7 @@ footer {
 .row {
   background-color: rgb(96, 137, 175);
 }
-.row .row div {
-  background-color: aqua;
-}
+
 .row h5 {
   color: rgb(75, 61, 88);
 }
