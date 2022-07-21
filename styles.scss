@@ -63,3 +63,17 @@ color: palevioletred;
 .textarea-centro{
     align-items: center;
 }
+.row{
+   background-color:$colorFondo;
+   .row div{
+    background-color: aqua;
+   }
+   h5{
+    color:$color-nav-footer;
+   }
+   p{
+    color: $colorFondo;
+   }
+   
+
+}

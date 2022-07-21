@@ -70,4 +70,17 @@ footer {
 
 .textarea-centro {
   align-items: center;
+}
+
+.row {
+  background-color: rgb(96, 137, 175);
+}
+.row .row div {
+  background-color: aqua;
+}
+.row h5 {
+  color: rgb(75, 61, 88);
+}
+.row p {
+  color: rgb(96, 137, 175);
 }/*# sourceMappingURL=styles.css.map */
