@@ -1,4 +1,5 @@
 @import "variables";
+@import "bucles";
 .bg-color{
     width: 100%;
     background-color: $color-nav-footer;
@@ -6,6 +7,7 @@
 
 body{
     background-color: $colorFondo;
+    min-height: 100vh;
 }
 footer{
     width: 100%;
@@ -17,7 +19,9 @@ footer{
 }
 .footer{
     margin-top: 30px;
+
 }
+
 .btn-primary{
     background-color: blueviolet;
     border-color: blueviolet;
@@ -77,4 +81,18 @@ color: palevioletred;
 }
 .navbar-toggler-icon{
     background-color: antiquewhite;
+}
+nav{
+    div{
+        li{
+            color:darkblue;
+
+        }
+        a{color: salmon;
+            
+        }
+    }
+}
+.card-title{
+    color:$colores;
 }

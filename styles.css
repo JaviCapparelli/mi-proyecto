@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(96, 137, 175);
+  min-height: 100vh;
 }
 
 footer {
@@ -75,10 +76,20 @@ footer {
 .row {
   background-color: rgb(96, 137, 175);
 }
-
 .row h5 {
   color: rgb(75, 61, 88);
 }
 .row p {
   color: rgb(96, 137, 175);
+}
+
+.navbar-toggler-icon {
+  background-color: antiquewhite;
+}
+
+nav div li {
+  color: darkblue;
+}
+nav div a {
+  color: salmon;
 }/*# sourceMappingURL=styles.css.map */
