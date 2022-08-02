@@ -10,6 +10,18 @@
   color: blue;
 }
 
+.facebook {
+  color: blue;
+}
+
+.whatsapp {
+  color: green;
+}
+
+.instagram {
+  color: pink;
+}
+
 .bg-color {
   width: 100%;
   background-color: rgb(75, 61, 88);

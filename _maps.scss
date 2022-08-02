@@ -1,1 +1,6 @@
-$map-redes:(facebook:blue, whatsapp:green,instagram:pink)
+$mapRedes:(facebook:blue, whatsapp:green,instagram:pink);
+@each $blue, $color in  $mapRedes {
+    .#{$blue} {
+        color:$color;
+    }
+}
