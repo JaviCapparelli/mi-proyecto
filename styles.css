@@ -1,3 +1,15 @@
+.blueviolet {
+  color: blueviolet;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
 .bg-color {
   width: 100%;
   background-color: rgb(75, 61, 88);
@@ -69,6 +81,10 @@ footer {
   color: white;
 }
 
+.navbar-toggler {
+  color: salmon;
+}
+
 .textarea-centro {
   align-items: center;
 }
@@ -83,13 +99,13 @@ footer {
   color: rgb(96, 137, 175);
 }
 
-.navbar-toggler-icon {
-  background-color: antiquewhite;
-}
-
 nav div li {
   color: darkblue;
 }
 nav div a {
   color: salmon;
+}
+
+.card-title {
+  color: "blueviolet", "green", "blue";
 }/*# sourceMappingURL=styles.css.map */

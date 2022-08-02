@@ -65,6 +65,9 @@ color: palevioletred;
     margin-right: 5px;
     color: white;
 }
+.navbar-toggler{
+    color: salmon;
+}
 .textarea-centro{
     align-items: center;
 }
@@ -77,19 +80,15 @@ color: palevioletred;
    p{
     color: $colorFondo;
    }
-   
-
 }
-.navbar-toggler-icon{
-    background-color: antiquewhite;
-}
-nav{
+nav{ 
     div{
         li{
             color:darkblue;
 
         }
-        a{color: salmon;
+        a{
+            color: salmon;
             
         }
     }
