@@ -1,6 +1,6 @@
 @import "variables";
 @import "bucles";
-@import "map";
+@import "maps";
 .bg-color{
     width: 100%;
     background-color: $color-nav-footer;
@@ -69,8 +69,13 @@ color: palevioletred;
 .textarea-centro{
     align-items: center;
 }
-.row{
+section{
    background-color:$colorFondo;
+   h1{
+    color: salmon;
+    font-family: 'Times New Roman', Times, serif;
+
+   }
 
    h5{
     color:$color-nav-footer;
@@ -91,6 +96,19 @@ nav{
         }
     }
 }
-.card-title{
-    color:$colores;
+
+.card-body{
+    background-color: $color-nav-footer;
+    h5{
+        color: salmon;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: $tam-fuente;
+        text-align: center;
+    }
+
+}
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: $tam-fuente;
+    text-align: center;
 }

@@ -1,4 +1,4 @@
-$colores:'blueviolet', 'green', 'blue' ;
+$colores:'violet', 'green', 'blue' ;
 @each $color in $colores {
     .#{$color}{
         color:#{$color};

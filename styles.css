@@ -1,5 +1,5 @@
-.blueviolet {
-  color: blueviolet;
+.violet {
+  color: violet;
 }
 
 .green {
@@ -86,13 +86,17 @@ footer {
   align-items: center;
 }
 
-.row {
+section {
   background-color: rgb(96, 137, 175);
 }
-.row h5 {
+section h1 {
+  color: salmon;
+  font-family: "Times New Roman", Times, serif;
+}
+section h5 {
   color: rgb(75, 61, 88);
 }
-.row p {
+section p {
   color: rgb(96, 137, 175);
 }
 
@@ -103,6 +107,18 @@ nav div a {
   color: salmon;
 }
 
-.card-title {
-  color: "blueviolet", "green", "blue";
+.card-body {
+  background-color: rgb(75, 61, 88);
+}
+.card-body h5 {
+  color: salmon;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
