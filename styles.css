@@ -34,6 +34,7 @@ footer {
 }
 
 .btn-primary {
+  justify-content: center;
   background-color: blueviolet;
   border-color: blueviolet;
   transition: all 0.2s ease-in-out;
@@ -79,10 +80,6 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   color: white;
-}
-
-.navbar-toggler {
-  color: salmon;
 }
 
 .textarea-centro {
