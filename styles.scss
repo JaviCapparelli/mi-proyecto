@@ -1,10 +1,7 @@
 @import "variables";
 @import "bucles";
 @import "maps";
-.bg-color{
-    width: 100%;
-    background-color: $color-nav-footer;
-}
+ 
 
 body{
     background-color: $colorFondo;
@@ -28,6 +25,8 @@ footer{
     background-color: blueviolet;
     border-color: blueviolet;
     transition: all 0.2s ease-in-out;
+    margin-left: 90px;
+
 }
 .btn-primary:hover{
     background-color: blueviolet;
@@ -84,8 +83,14 @@ section{
     color: $colorFondo;
    }
 }
-nav{ 
+nav{
+    color: salmon;
+    background-color: $color-nav-footer; 
     div{
+        button{
+            color: salmon;
+
+    }
         li{
             color:darkblue;
 
@@ -96,7 +101,6 @@ nav{
         }
     }
 }
-
 .card-body{
     background-color: $color-nav-footer;
     h5{

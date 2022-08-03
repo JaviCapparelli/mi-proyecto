@@ -22,11 +22,6 @@
   color: pink;
 }
 
-.bg-color {
-  width: 100%;
-  background-color: rgb(75, 61, 88);
-}
-
 body {
   background-color: rgb(96, 137, 175);
   min-height: 100vh;
@@ -50,6 +45,7 @@ footer {
   background-color: blueviolet;
   border-color: blueviolet;
   transition: all 0.2s ease-in-out;
+  margin-left: 90px;
 }
 
 .btn-primary:hover {
@@ -112,6 +108,13 @@ section p {
   color: rgb(96, 137, 175);
 }
 
+nav {
+  color: salmon;
+  background-color: rgb(75, 61, 88);
+}
+nav div button {
+  color: salmon;
+}
 nav div li {
   color: darkblue;
 }
