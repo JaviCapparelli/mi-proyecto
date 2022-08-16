@@ -23,8 +23,7 @@
 }
 
 body {
-  background-color: rgb(96, 137, 175);
-  min-height: 100vh;
+  background-color: rgb(65, 86, 105);
 }
 
 footer {
@@ -95,7 +94,7 @@ footer {
 }
 
 section {
-  background-color: rgb(96, 137, 175);
+  background-color: rgb(65, 86, 105);
 }
 section h1 {
   color: salmon;
@@ -105,7 +104,7 @@ section h5 {
   color: rgb(75, 61, 88);
 }
 section p {
-  color: rgb(96, 137, 175);
+  color: rgb(65, 86, 105);
 }
 
 nav {
@@ -136,4 +135,11 @@ nav div a {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.5rem;
   text-align: center;
+}
+
+p {
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }/*# sourceMappingURL=styles.css.map */
