@@ -92,10 +92,6 @@ footer {
   color: white;
 }
 
-.textarea-centro {
-  align-items: center;
-}
-
 section {
   background-color: rgb(65, 86, 105);
 }
@@ -107,7 +103,7 @@ section h5 {
   color: rgb(75, 61, 88);
 }
 section p {
-  color: rgb(65, 86, 105);
+  color: aliceblue;
 }
 
 nav {
