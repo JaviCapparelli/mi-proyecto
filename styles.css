@@ -24,6 +24,9 @@
 
 body {
   background-color: rgb(65, 86, 105);
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
 }
 
 footer {
@@ -153,7 +156,7 @@ body {
   color: salmon;
   line-height: 1.6;
   font-family: "Quicksand", sans-serif;
-  padding: 0 1.5em;
+  padding: 0;
 }
 
 .container {
