@@ -24,27 +24,19 @@
 
 body {
   background-color: rgb(65, 86, 105);
-  position: relative;
-  padding-bottom: 3em;
-  min-height: 100vh;
 }
 
-@media (min-width: 320px) {
-  footer {
-    width: 100%;
-    background-color: rgb(75, 61, 88);
-    height: 100px;
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-  }
-  .footer {
-    margin-top: 30px;
-  }
+footer {
+  width: 100%;
+  background-color: rgb(75, 61, 88);
+  min-height: 100px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
 }
-.footer-home {
-  position: relative;
-  bottom: 0;
+
+.footer {
+  margin-top: 30px;
 }
 
 .btn-home {
