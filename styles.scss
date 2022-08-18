@@ -9,6 +9,7 @@ body{
     padding-bottom: 3em;
     min-height: 100vh;
 }
+@media(min-width: 320px) {
 footer{
     width: 100%;
     background-color: $color-nav-footer;
@@ -20,7 +21,24 @@ footer{
 .footer{
     margin-top: 30px;
 }
+}
+.footer-home{
+    position: relative;
+    bottom: 0;
+}
 
+.btn-home{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    transition: all 0.2s ease-in-out;
+    color: aliceblue;
+}
+
+    .btn-home:hover{
+        background-color: blueviolet;
+        border-color: blueviolet;
+        transform: scale(0.8);
+}
 .btn-primary{
     justify-content: center;
     background-color: blueviolet;
